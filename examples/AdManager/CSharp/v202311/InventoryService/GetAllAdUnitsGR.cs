@@ -78,7 +78,7 @@ namespace Google.Api.Ads.AdManager.Examples.CSharp.v202311
                         int i = page.startIndex;
                         foreach (AdUnit adUnit in page.results)
                         {
-                            if(adUnit.name.ToLower().StartsWith("elnorte") || adUnit.name.ToLower().StartsWith("reforma") || adUnit.name.ToLower().StartsWith("mural"))
+                            if(adUnit.name.ToLower().StartsWith("puisor_") || adUnit.name.ToLower().StartsWith("totis_"))
                             {
                                 //Console.WriteLine("{0}) Ad unit with ID \"{1}\" and name \"{2}\" was found.", i++, adUnit.id, adUnit.name);
                                 Console.WriteLine("{0}) Ad unit ID: \"{1}\" | name: \"{2}\" | adUnitCode: \"{3}\"", i++, adUnit.id, adUnit.name, adUnit.adUnitCode);
